@@ -1,3 +1,4 @@
+
 .header{
  display: grid;
  grid-template-columns: 250px auto 200px;
@@ -17,7 +18,7 @@
     display: flex;
     align-items: center;
     width: 80%;
-    background-color: whitesmoke;
+    background-color: #dbf0fd;
     border-radius: 50px;
     padding: 0 10px;
 }

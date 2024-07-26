@@ -1,0 +1,13 @@
+.settings{
+    display: flex;
+    align-items: center;
+}
+.s-left{
+    display: flex;
+    flex: 1;
+}
+.s-right{
+    display: flex;
+    justify-content: right;
+    flex: 1;
+}

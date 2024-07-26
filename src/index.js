@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/Header'
+import Sidebar from './components/sidebar/Sidebar'
+import Emails from './components/Emails/Emails'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
+    <div className='s-body'>
+    <Sidebar/>
+    <Emails/>
+    </div>
+    
   </React.StrictMode>
 );
 

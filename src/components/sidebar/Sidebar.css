@@ -1,0 +1,18 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+
+}
+.s-btn{
+    padding: 10px 20px !important;
+    color: black !important;
+    border-radius: 50px !important;
+    margin: 20px 0 20px 10px !important;
+    background-color: #c2e7ff !important;
+    max-width: max-content;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    }
+.s-btn:hover {
+    box-shadow: 0.1px 0.1px 10px rgb(173, 173, 173) !important;
+} 
