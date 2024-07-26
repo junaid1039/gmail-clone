@@ -1,0 +1,29 @@
+.email {
+    display: flex;
+    width: 100%;
+}
+
+.c-left,
+.c-middle1,
+.c-middle2,
+.c-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.c-left svg,
+.c-middle1 svg,
+.c-middle2 svg,
+.c-right svg {
+    padding: 0 10px !important;
+    font-size: 18px;
+}
+
+.c-left:hover,
+.c-middle1:hover,
+.c-middle2:hover,
+.c-right:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}

@@ -8,7 +8,6 @@ import StarBorderIcon from '@mui/icons-material/StarBorder';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import DraftsIcon from '@mui/icons-material/Drafts';
-import { useState } from 'react';
 
 const Sidebar = () => {
     return(
