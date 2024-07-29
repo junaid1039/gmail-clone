@@ -9,11 +9,12 @@ import { useState } from 'react';
 
 const App = () => {
 
-    const {click, onclick} = useState(false);
+    const [click, onclick] = useState(false);
 
     const oncompose = () => { 
         onclick(true);
     }
+    const close = () => {onclick(false); }
 
 
     return (
@@ -21,11 +22,11 @@ const App = () => {
             <Header />
 
             <div className='box'>
-                <Sidebar oncompose={oncompose}/> {/* use to pass the props to the sidebar component which is taking funciton as parameter */}
+                <Sidebar clickbtn={oncompose}/> {/* use to pass the props to the sidebar component which is taking funciton as parameter */}
                 <Emails />
             </div>
 
-           {click && <Compose/>} 
+           {click && <Compose close={close} />}
             
         </div>
 

@@ -17,7 +17,7 @@ import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined
 import { EmojiEmotionsOutlined } from '@mui/icons-material';
 
 
-const Compose = ()=>{
+const Compose = ({close})=>{
     
     return(
         <div className='compose'>
@@ -26,13 +26,13 @@ const Compose = ()=>{
                 <div>
                 <IconButton><MinimizeIcon/></IconButton>
                 <IconButton><OpenInFullIcon/></IconButton>
-                <IconButton><CloseIcon/></IconButton>
+                <IconButton><CloseIcon onClick={close} /></IconButton>
                 </div>
             </div>
             <div className='c-body'>
                 <input type='email' placeholder='Recipients' className='i1' />
                 <input type='text' placeholder='Subject' className='i2'/>
-                <textarea rows="20"></textarea>
+                <textarea rows="18"></textarea>
             </div>
             <div className='c-footer'>
                 <div className='f-left'>
@@ -47,7 +47,7 @@ const Compose = ()=>{
                     <IconButton><CreateOutlinedIcon/></IconButton>
                     <IconButton><MoreVertOutlinedIcon/></IconButton>
                 </div>
-                <IconButton><DeleteForeverOutlinedIcon/></IconButton>
+                <IconButton><DeleteForeverOutlinedIcon onClick={close} /></IconButton>
             </div>
         </div>
     )
