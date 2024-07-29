@@ -12,7 +12,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.s-body{
-  display: grid;
-  grid-template-columns: 255px auto 50px;
-}
+

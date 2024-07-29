@@ -1,0 +1,51 @@
+.emailbody{
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 2px solid whitesmoke;
+    height: 30px;
+    
+}
+.emailbody:hover{
+    box-shadow: 4px 4px 5px whitesmoke;
+    .b-right svg{
+    display: flex;
+    }
+    .b-right p{
+        display: none;
+    }
+}
+.b-left{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.b-left svg{
+    font-size: 18px;
+}
+.b-left h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.b-left p{
+    font-size: 18px;
+}
+.b-middle{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.b-middle h1{
+ font-size: 18px;
+ font-weight: 500;
+}
+.b-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 25% ;
+}
+.b-right svg{
+    display: none;
+    font-size: 18px;
+
+}

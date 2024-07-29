@@ -10,7 +10,7 @@ const Emails = () =>{
         <div className='main-box'>
             <Emailsettings/>
             <Emailtype/>
-            <Emailbody/>
+            <Emailbody subject=" Testing" sender="Junaid" message="Dummy" time="12:02 PM"/>
         </div>
     )
 };

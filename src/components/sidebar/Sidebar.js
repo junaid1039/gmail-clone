@@ -9,10 +9,12 @@ import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import DraftsIcon from '@mui/icons-material/Drafts';
 
-const Sidebar = () => {
+const Sidebar = ({oncompose}) => {
+
+
     return(
         <div className='sidebar'>
-            <Button startIcon={<CreateOutlinedIcon />} className='s-btn'>Compose</Button>
+            <Button startIcon={<CreateOutlinedIcon />} className='s-btn' onClick={oncompose}>Compose</Button>
             <Options Icon={InboxIcon} text="Inbox" nmbr="124"/>
             <Options Icon={StarBorderIcon} text="Starred" nmbr="124" />
             <Options Icon={AccessTimeOutlinedIcon} text="Snoozed" nmbr="124" />

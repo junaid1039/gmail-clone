@@ -1,0 +1,5 @@
+.box{
+    display: grid;
+    grid-template-columns: 255px auto 50px;
+    height: 87vh;
+}
